@@ -2,7 +2,7 @@
 
 Chinese | [English](#english)
 
-![Example multiphase fit](docs/example_multiphase_fit.png)
+![x1 single-phase fit](docs/example_multiphase_fit.png)
 
 ## 中文
 
@@ -61,6 +61,7 @@ Chinese | [English](#english)
    - 蓝色差谱 `Yobs - Ycalc`
    - 绿色或分彩色布拉格位置刻线
    - 适合论文或汇报风格的 Rietveld 图
+   - README 示例图使用 `x1` 数据，图例相名显示为 `phase1`
 
 ### 仓库结构
 
@@ -239,6 +240,7 @@ It supports:
    - blue `Yobs - Ycalc` difference curve
    - Bragg-position tick marks
    - Rietveld-style layout suitable for reports and manuscripts
+   - the README example uses the `x1` single-phase pattern and shows the phase label as `phase1`
 
 ### Repository Layout
 

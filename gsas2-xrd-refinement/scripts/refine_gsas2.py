@@ -553,10 +553,6 @@ def compact_space_group_label(space_group: str | None) -> str:
 
 
 def phase_plot_label(phase) -> str:
-    general = phase.data.get("General", {})
-    space_group = compact_space_group_label(general.get("SGData", {}).get("SpGrp"))
-    if space_group:
-        return f"{phase.name}({space_group})"
     return str(phase.name)
 
 
